@@ -2,7 +2,7 @@
 
 <hr />
 
-![Method](Figures/Method.jpg)
+![Method](Report/Method.png)
 
 ## Abstract 
 With the recent adaptation of deep learning in medical imaging problems, elevated vulnerabilities have been explored in reent CNN
@@ -21,4 +21,5 @@ privacy attacks like model extraction. Extensive experiments performed
 with the proposed architecture on publicly available Tuberculosis X-ray
 dataset shows efficacy in terms of computational efficiency and enhanced
 robustness.
-## Keywords: Ensembling · Adversarial Attack · Defensive Distillation
+## Keywords: 
+Ensembling · Adversarial Attack · Defensive Distillation
