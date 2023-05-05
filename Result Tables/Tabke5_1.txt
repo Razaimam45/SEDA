@@ -1,0 +1,822 @@
+
+
+-->>> For cnns
+ViT is loaded!
+cnn_block_0_train_acc0.91_test_acc0.95.pth
+MLP 1 is loaded!
+cnn_block_1_train_acc0.94_test_acc0.96.pth
+MLP 2 is loaded!
+cnn_block_2_train_acc0.94_test_acc0.97.pth
+MLP 3 is loaded!
+cnn_block_3_train_acc0.95_test_acc0.97.pth
+MLP 4 is loaded!
+cnn_block_4_train_acc0.95_test_acc0.97.pth
+All MLPs are loaded!
+# of parameters of a module:
+Total Params:  1032770
+Trainable Params:  1032770
+
+For FGSM Attack samples:
+number of images is 690
+Classes with index are: {'Normal': 0, 'Tuberculosis': 1}
+1
+For m = 1
+Final Accuracy From Majority Voting = 92.464%
+Final Accuracy From Averaging = 94.493%
+Final Accuracy From Weighted Average = 94.348%
+2
+For m = 2
+Final Accuracy From Majority Voting = 94.203%
+Final Accuracy From Averaging = 95.217%
+Final Accuracy From Weighted Average = 95.072%
+3
+For m = 3
+Final Accuracy From Majority Voting = 94.928%
+Final Accuracy From Averaging = 94.783%
+Final Accuracy From Weighted Average = 94.783%
+4
+For m = 4
+Final Accuracy From Majority Voting = 94.348%
+Final Accuracy From Averaging = 94.058%
+Final Accuracy From Weighted Average = 93.623%
+
+For PGD Attack samples:
+number of images is 690
+Classes with index are: {'Normal': 0, 'Tuberculosis': 1}
+1
+For m = 1
+Final Accuracy From Majority Voting = 92.464%
+Final Accuracy From Averaging = 94.638%
+Final Accuracy From Weighted Average = 94.783%
+2
+For m = 2
+Final Accuracy From Majority Voting = 94.493%
+Final Accuracy From Averaging = 95.362%
+Final Accuracy From Weighted Average = 95.217%
+3
+For m = 3
+Final Accuracy From Majority Voting = 95.072%
+Final Accuracy From Averaging = 95.072%
+Final Accuracy From Weighted Average = 94.928%
+4
+For m = 4
+Final Accuracy From Majority Voting = 94.493%
+Final Accuracy From Averaging = 93.913%
+Final Accuracy From Weighted Average = 93.768%
+
+For BIM Attack samples:
+number of images is 690
+Classes with index are: {'Normal': 0, 'Tuberculosis': 1}
+1
+For m = 1
+Final Accuracy From Majority Voting = 95.507%
+Final Accuracy From Averaging = 96.667%
+Final Accuracy From Weighted Average = 96.522%
+2
+For m = 2
+Final Accuracy From Majority Voting = 95.652%
+Final Accuracy From Averaging = 96.957%
+Final Accuracy From Weighted Average = 96.522%
+3
+For m = 3
+Final Accuracy From Majority Voting = 96.087%
+Final Accuracy From Averaging = 96.377%
+Final Accuracy From Weighted Average = 96.087%
+4
+For m = 4
+Final Accuracy From Majority Voting = 94.203%
+Final Accuracy From Averaging = 94.928%
+Final Accuracy From Weighted Average = 94.928%
+
+For AUTOPGD Attack samples:
+number of images is 690
+Classes with index are: {'Normal': 0, 'Tuberculosis': 1}
+1
+For m = 1
+Final Accuracy From Majority Voting = 93.188%
+Final Accuracy From Averaging = 95.362%
+Final Accuracy From Weighted Average = 95.507%
+2
+For m = 2
+Final Accuracy From Majority Voting = 94.638%
+Final Accuracy From Averaging = 96.087%
+Final Accuracy From Weighted Average = 95.507%
+3
+For m = 3
+Final Accuracy From Majority Voting = 95.362%
+Final Accuracy From Averaging = 95.217%
+Final Accuracy From Weighted Average = 94.928%
+4
+For m = 4
+Final Accuracy From Majority Voting = 94.348%
+Final Accuracy From Averaging = 93.913%
+Final Accuracy From Weighted Average = 93.623%
+
+For CW Attack samples:
+number of images is 690
+Classes with index are: {'Normal': 0, 'Tuberculosis': 1}
+1
+For m = 1
+Final Accuracy From Majority Voting = 95.507%
+Final Accuracy From Averaging = 96.667%
+Final Accuracy From Weighted Average = 96.522%
+2
+For m = 2
+Final Accuracy From Majority Voting = 95.652%
+Final Accuracy From Averaging = 96.957%
+Final Accuracy From Weighted Average = 96.522%
+3
+For m = 3
+Final Accuracy From Majority Voting = 96.087%
+Final Accuracy From Averaging = 96.377%
+Final Accuracy From Weighted Average = 96.087%
+4
+For m = 4
+Final Accuracy From Majority Voting = 94.203%
+Final Accuracy From Averaging = 94.928%
+Final Accuracy From Weighted Average = 94.928%
+
+
+-->>> For resnets_ft
+ViT is loaded!
+resnet_ft_block_0_train_acc0.91_test_acc0.96.pth
+MLP 1 is loaded!
+resnet_ft_block_1_train_acc0.94_test_acc0.98.pth
+MLP 2 is loaded!
+resnet_ft_block_2_train_acc0.93_test_acc0.97.pth
+MLP 3 is loaded!
+resnet_ft_block_3_train_acc0.95_test_acc0.98.pth
+MLP 4 is loaded!
+resnet_ft_block_4_train_acc0.95_test_acc0.98.pth
+All MLPs are loaded!
+# of parameters of a module:
+Total Params:  13586114
+Trainable Params:  13586114
+
+For FGSM Attack samples:
+number of images is 690
+Classes with index are: {'Normal': 0, 'Tuberculosis': 1}
+1
+For m = 1
+Final Accuracy From Majority Voting = 93.043%
+Final Accuracy From Averaging = 94.783%
+Final Accuracy From Weighted Average = 94.928%
+2
+For m = 2
+Final Accuracy From Majority Voting = 95.507%
+Final Accuracy From Averaging = 95.217%
+Final Accuracy From Weighted Average = 95.652%
+3
+For m = 3
+Final Accuracy From Majority Voting = 95.072%
+Final Accuracy From Averaging = 94.058%
+Final Accuracy From Weighted Average = 93.768%
+4
+For m = 4
+Final Accuracy From Majority Voting = 94.058%
+Final Accuracy From Averaging = 94.493%
+Final Accuracy From Weighted Average = 94.058%
+
+For PGD Attack samples:
+number of images is 690
+Classes with index are: {'Normal': 0, 'Tuberculosis': 1}
+1
+For m = 1
+Final Accuracy From Majority Voting = 92.899%
+Final Accuracy From Averaging = 94.928%
+Final Accuracy From Weighted Average = 95.072%
+2
+For m = 2
+Final Accuracy From Majority Voting = 95.507%
+Final Accuracy From Averaging = 95.652%
+Final Accuracy From Weighted Average = 95.797%
+3
+For m = 3
+Final Accuracy From Majority Voting = 95.072%
+Final Accuracy From Averaging = 94.203%
+Final Accuracy From Weighted Average = 93.768%
+4
+For m = 4
+Final Accuracy From Majority Voting = 93.333%
+Final Accuracy From Averaging = 94.348%
+Final Accuracy From Weighted Average = 93.768%
+
+For BIM Attack samples:
+number of images is 690
+Classes with index are: {'Normal': 0, 'Tuberculosis': 1}
+1
+For m = 1
+Final Accuracy From Majority Voting = 96.087%
+Final Accuracy From Averaging = 96.812%
+Final Accuracy From Weighted Average = 96.667%
+2
+For m = 2
+Final Accuracy From Majority Voting = 96.377%
+Final Accuracy From Averaging = 96.957%
+Final Accuracy From Weighted Average = 96.812%
+3
+For m = 3
+Final Accuracy From Majority Voting = 96.232%
+Final Accuracy From Averaging = 95.652%
+Final Accuracy From Weighted Average = 95.217%
+4
+For m = 4
+Final Accuracy From Majority Voting = 91.449%
+Final Accuracy From Averaging = 93.043%
+Final Accuracy From Weighted Average = 92.754%
+
+For AUTOPGD Attack samples:
+number of images is 690
+Classes with index are: {'Normal': 0, 'Tuberculosis': 1}
+1
+For m = 1
+Final Accuracy From Majority Voting = 94.058%
+Final Accuracy From Averaging = 95.507%
+Final Accuracy From Weighted Average = 95.652%
+2
+For m = 2
+Final Accuracy From Majority Voting = 95.652%
+Final Accuracy From Averaging = 96.087%
+Final Accuracy From Weighted Average = 96.377%
+3
+For m = 3
+Final Accuracy From Majority Voting = 95.362%
+Final Accuracy From Averaging = 94.783%
+Final Accuracy From Weighted Average = 94.493%
+4
+For m = 4
+Final Accuracy From Majority Voting = 93.188%
+Final Accuracy From Averaging = 94.348%
+Final Accuracy From Weighted Average = 94.058%
+
+For CW Attack samples:
+number of images is 690
+Classes with index are: {'Normal': 0, 'Tuberculosis': 1}
+1
+For m = 1
+Final Accuracy From Majority Voting = 96.087%
+Final Accuracy From Averaging = 96.812%
+Final Accuracy From Weighted Average = 96.667%
+2
+For m = 2
+Final Accuracy From Majority Voting = 96.377%
+Final Accuracy From Averaging = 96.957%
+Final Accuracy From Weighted Average = 96.812%
+3
+For m = 3
+Final Accuracy From Majority Voting = 96.232%
+Final Accuracy From Averaging = 95.652%
+Final Accuracy From Weighted Average = 95.217%
+4
+For m = 4
+Final Accuracy From Majority Voting = 91.449%
+Final Accuracy From Averaging = 93.043%
+Final Accuracy From Weighted Average = 92.754%
+
+
+-->>> For resnets_tl
+ViT is loaded!
+resnet_tl_block_0_train_acc0.87_test_acc0.90.pth
+MLP 1 is loaded!
+resnet_tl_block_1_train_acc0.87_test_acc0.91.pth
+MLP 2 is loaded!
+resnet_tl_block_2_train_acc0.87_test_acc0.90.pth
+MLP 3 is loaded!
+resnet_tl_block_3_train_acc0.90_test_acc0.94.pth
+MLP 4 is loaded!
+resnet_tl_block_4_train_acc0.91_test_acc0.94.pth
+All MLPs are loaded!
+# of parameters of a module:
+Total Params:  13586114
+Trainable Params:  2409602
+
+For FGSM Attack samples:
+number of images is 690
+Classes with index are: {'Normal': 0, 'Tuberculosis': 1}
+1
+For m = 1
+Final Accuracy From Majority Voting = 89.420%
+Final Accuracy From Averaging = 92.319%
+Final Accuracy From Weighted Average = 91.739%
+2
+For m = 2
+Final Accuracy From Majority Voting = 88.841%
+Final Accuracy From Averaging = 92.754%
+Final Accuracy From Weighted Average = 90.435%
+3
+For m = 3
+Final Accuracy From Majority Voting = 91.739%
+Final Accuracy From Averaging = 91.739%
+Final Accuracy From Weighted Average = 91.014%
+4
+For m = 4
+Final Accuracy From Majority Voting = 90.290%
+Final Accuracy From Averaging = 90.870%
+Final Accuracy From Weighted Average = 90.290%
+
+For PGD Attack samples:
+number of images is 690
+Classes with index are: {'Normal': 0, 'Tuberculosis': 1}
+1
+For m = 1
+Final Accuracy From Majority Voting = 89.565%
+Final Accuracy From Averaging = 92.609%
+Final Accuracy From Weighted Average = 92.029%
+2
+For m = 2
+Final Accuracy From Majority Voting = 88.986%
+Final Accuracy From Averaging = 93.188%
+Final Accuracy From Weighted Average = 90.870%
+3
+For m = 3
+Final Accuracy From Majority Voting = 92.174%
+Final Accuracy From Averaging = 92.174%
+Final Accuracy From Weighted Average = 91.739%
+4
+For m = 4
+Final Accuracy From Majority Voting = 90.000%
+Final Accuracy From Averaging = 91.594%
+Final Accuracy From Weighted Average = 90.290%
+
+For BIM Attack samples:
+number of images is 690
+Classes with index are: {'Normal': 0, 'Tuberculosis': 1}
+1
+For m = 1
+Final Accuracy From Majority Voting = 91.594%
+Final Accuracy From Averaging = 96.377%
+Final Accuracy From Weighted Average = 93.623%
+2
+For m = 2
+Final Accuracy From Majority Voting = 90.290%
+Final Accuracy From Averaging = 94.348%
+Final Accuracy From Weighted Average = 92.754%
+3
+For m = 3
+Final Accuracy From Majority Voting = 93.333%
+Final Accuracy From Averaging = 94.638%
+Final Accuracy From Weighted Average = 94.638%
+4
+For m = 4
+Final Accuracy From Majority Voting = 91.449%
+Final Accuracy From Averaging = 93.333%
+Final Accuracy From Weighted Average = 91.594%
+
+For AUTOPGD Attack samples:
+number of images is 690
+Classes with index are: {'Normal': 0, 'Tuberculosis': 1}
+1
+For m = 1
+Final Accuracy From Majority Voting = 90.145%
+Final Accuracy From Averaging = 93.913%
+Final Accuracy From Weighted Average = 92.609%
+2
+For m = 2
+Final Accuracy From Majority Voting = 89.130%
+Final Accuracy From Averaging = 93.043%
+Final Accuracy From Weighted Average = 91.159%
+3
+For m = 3
+Final Accuracy From Majority Voting = 91.884%
+Final Accuracy From Averaging = 92.319%
+Final Accuracy From Weighted Average = 91.304%
+4
+For m = 4
+Final Accuracy From Majority Voting = 90.290%
+Final Accuracy From Averaging = 91.594%
+Final Accuracy From Weighted Average = 90.725%
+
+For CW Attack samples:
+number of images is 690
+Classes with index are: {'Normal': 0, 'Tuberculosis': 1}
+1
+For m = 1
+Final Accuracy From Majority Voting = 91.594%
+Final Accuracy From Averaging = 96.377%
+Final Accuracy From Weighted Average = 93.623%
+2
+For m = 2
+Final Accuracy From Majority Voting = 90.290%
+Final Accuracy From Averaging = 94.348%
+Final Accuracy From Weighted Average = 92.754%
+3
+For m = 3
+Final Accuracy From Majority Voting = 93.333%
+Final Accuracy From Averaging = 94.638%
+Final Accuracy From Weighted Average = 94.638%
+4
+For m = 4
+Final Accuracy From Majority Voting = 91.449%
+Final Accuracy From Averaging = 93.333%
+Final Accuracy From Weighted Average = 91.594%
+
+
+-->>> For resnets_ft_cnn
+ViT is loaded!
+resnet_ft_cnn_block_0_train_acc0.93_test_acc0.96.pth
+MLP 1 is loaded!
+resnet_ft_cnn_block_1_train_acc0.94_test_acc0.98.pth
+MLP 2 is loaded!
+resnet_ft_cnn_block_2_train_acc0.94_test_acc0.98.pth
+MLP 3 is loaded!
+resnet_ft_cnn_block_3_train_acc0.95_test_acc0.98.pth
+MLP 4 is loaded!
+resnet_ft_cnn_block_4_train_acc0.96_test_acc0.97.pth
+All MLPs are loaded!
+# of parameters of a module:
+Total Params:  14267810
+Trainable Params:  14267810
+
+For FGSM Attack samples:
+number of images is 690
+Classes with index are: {'Normal': 0, 'Tuberculosis': 1}
+1
+For m = 1
+Final Accuracy From Majority Voting = 93.188%
+Final Accuracy From Averaging = 95.072%
+Final Accuracy From Weighted Average = 95.507%
+2
+For m = 2
+Final Accuracy From Majority Voting = 95.652%
+Final Accuracy From Averaging = 95.797%
+Final Accuracy From Weighted Average = 95.507%
+3
+For m = 3
+Final Accuracy From Majority Voting = 95.362%
+Final Accuracy From Averaging = 94.783%
+Final Accuracy From Weighted Average = 94.348%
+4
+For m = 4
+Final Accuracy From Majority Voting = 93.043%
+Final Accuracy From Averaging = 94.493%
+Final Accuracy From Weighted Average = 94.203%
+
+For PGD Attack samples:
+number of images is 690
+Classes with index are: {'Normal': 0, 'Tuberculosis': 1}
+1
+For m = 1
+Final Accuracy From Majority Voting = 93.188%
+Final Accuracy From Averaging = 95.217%
+Final Accuracy From Weighted Average = 95.652%
+2
+For m = 2
+Final Accuracy From Majority Voting = 95.942%
+Final Accuracy From Averaging = 95.942%
+Final Accuracy From Weighted Average = 95.507%
+3
+For m = 3
+Final Accuracy From Majority Voting = 95.652%
+Final Accuracy From Averaging = 94.928%
+Final Accuracy From Weighted Average = 94.638%
+4
+For m = 4
+Final Accuracy From Majority Voting = 92.754%
+Final Accuracy From Averaging = 94.493%
+Final Accuracy From Weighted Average = 94.203%
+
+For BIM Attack samples:
+number of images is 690
+Classes with index are: {'Normal': 0, 'Tuberculosis': 1}
+1
+For m = 1
+Final Accuracy From Majority Voting = 95.942%
+Final Accuracy From Averaging = 96.957%
+Final Accuracy From Weighted Average = 96.957%
+2
+For m = 2
+Final Accuracy From Majority Voting = 95.942%
+Final Accuracy From Averaging = 96.377%
+Final Accuracy From Weighted Average = 94.783%
+3
+For m = 3
+Final Accuracy From Majority Voting = 96.522%
+Final Accuracy From Averaging = 94.493%
+Final Accuracy From Weighted Average = 93.913%
+4
+For m = 4
+Final Accuracy From Majority Voting = 88.986%
+Final Accuracy From Averaging = 93.043%
+Final Accuracy From Weighted Average = 92.029%
+
+For AUTOPGD Attack samples:
+number of images is 690
+Classes with index are: {'Normal': 0, 'Tuberculosis': 1}
+1
+For m = 1
+Final Accuracy From Majority Voting = 93.913%
+Final Accuracy From Averaging = 95.942%
+Final Accuracy From Weighted Average = 96.087%
+2
+For m = 2
+Final Accuracy From Majority Voting = 95.652%
+Final Accuracy From Averaging = 95.942%
+Final Accuracy From Weighted Average = 95.362%
+3
+For m = 3
+Final Accuracy From Majority Voting = 96.087%
+Final Accuracy From Averaging = 95.217%
+Final Accuracy From Weighted Average = 94.783%
+4
+For m = 4
+Final Accuracy From Majority Voting = 91.884%
+Final Accuracy From Averaging = 94.783%
+Final Accuracy From Weighted Average = 93.768%
+
+For CW Attack samples:
+number of images is 690
+Classes with index are: {'Normal': 0, 'Tuberculosis': 1}
+1
+For m = 1
+Final Accuracy From Majority Voting = 95.942%
+Final Accuracy From Averaging = 96.957%
+Final Accuracy From Weighted Average = 96.957%
+2
+For m = 2
+Final Accuracy From Majority Voting = 95.942%
+Final Accuracy From Averaging = 96.377%
+Final Accuracy From Weighted Average = 94.783%
+3
+For m = 3
+Final Accuracy From Majority Voting = 96.522%
+Final Accuracy From Averaging = 94.493%
+Final Accuracy From Weighted Average = 93.913%
+4
+For m = 4
+Final Accuracy From Majority Voting = 88.986%
+Final Accuracy From Averaging = 93.043%
+Final Accuracy From Weighted Average = 92.029%
+
+
+-->>> For resnets_tl_cnn
+ViT is loaded!
+resnet_tl_cnn_block_0_train_acc0.86_test_acc0.93.pth
+MLP 1 is loaded!
+resnet_tl_cnn_block_1_train_acc0.88_test_acc0.92.pth
+MLP 2 is loaded!
+resnet_tl_cnn_block_2_train_acc0.89_test_acc0.92.pth
+MLP 3 is loaded!
+resnet_tl_cnn_block_3_train_acc0.89_test_acc0.93.pth
+MLP 4 is loaded!
+resnet_tl_cnn_block_4_train_acc0.92_test_acc0.95.pth
+All MLPs are loaded!
+# of parameters of a module:
+Total Params:  14267810
+Trainable Params:  3091298
+
+For FGSM Attack samples:
+number of images is 690
+Classes with index are: {'Normal': 0, 'Tuberculosis': 1}
+1
+For m = 1
+Final Accuracy From Majority Voting = 92.319%
+Final Accuracy From Averaging = 93.913%
+Final Accuracy From Weighted Average = 93.623%
+2
+For m = 2
+Final Accuracy From Majority Voting = 93.768%
+Final Accuracy From Averaging = 94.058%
+Final Accuracy From Weighted Average = 94.203%
+3
+For m = 3
+Final Accuracy From Majority Voting = 93.913%
+Final Accuracy From Averaging = 93.913%
+Final Accuracy From Weighted Average = 92.899%
+4
+For m = 4
+Final Accuracy From Majority Voting = 91.884%
+Final Accuracy From Averaging = 92.899%
+Final Accuracy From Weighted Average = 91.739%
+
+For PGD Attack samples:
+number of images is 690
+Classes with index are: {'Normal': 0, 'Tuberculosis': 1}
+1
+For m = 1
+Final Accuracy From Majority Voting = 92.319%
+Final Accuracy From Averaging = 94.058%
+Final Accuracy From Weighted Average = 93.768%
+2
+For m = 2
+Final Accuracy From Majority Voting = 93.768%
+Final Accuracy From Averaging = 94.348%
+Final Accuracy From Weighted Average = 94.348%
+3
+For m = 3
+Final Accuracy From Majority Voting = 94.203%
+Final Accuracy From Averaging = 93.913%
+Final Accuracy From Weighted Average = 93.043%
+4
+For m = 4
+Final Accuracy From Majority Voting = 92.174%
+Final Accuracy From Averaging = 92.899%
+Final Accuracy From Weighted Average = 92.464%
+
+For BIM Attack samples:
+number of images is 690
+Classes with index are: {'Normal': 0, 'Tuberculosis': 1}
+1
+For m = 1
+Final Accuracy From Majority Voting = 94.203%
+Final Accuracy From Averaging = 96.087%
+Final Accuracy From Weighted Average = 96.087%
+2
+For m = 2
+Final Accuracy From Majority Voting = 95.362%
+Final Accuracy From Averaging = 96.087%
+Final Accuracy From Weighted Average = 95.797%
+3
+For m = 3
+Final Accuracy From Majority Voting = 95.217%
+Final Accuracy From Averaging = 95.362%
+Final Accuracy From Weighted Average = 94.638%
+4
+For m = 4
+Final Accuracy From Majority Voting = 93.333%
+Final Accuracy From Averaging = 94.638%
+Final Accuracy From Weighted Average = 94.058%
+
+For AUTOPGD Attack samples:
+number of images is 690
+Classes with index are: {'Normal': 0, 'Tuberculosis': 1}
+1
+For m = 1
+Final Accuracy From Majority Voting = 92.899%
+Final Accuracy From Averaging = 95.072%
+Final Accuracy From Weighted Average = 94.638%
+2
+For m = 2
+Final Accuracy From Majority Voting = 93.768%
+Final Accuracy From Averaging = 95.217%
+Final Accuracy From Weighted Average = 94.348%
+3
+For m = 3
+Final Accuracy From Majority Voting = 94.493%
+Final Accuracy From Averaging = 94.348%
+Final Accuracy From Weighted Average = 93.623%
+4
+For m = 4
+Final Accuracy From Majority Voting = 91.884%
+Final Accuracy From Averaging = 93.623%
+Final Accuracy From Weighted Average = 92.754%
+
+For CW Attack samples:
+number of images is 690
+Classes with index are: {'Normal': 0, 'Tuberculosis': 1}
+1
+For m = 1
+Final Accuracy From Majority Voting = 94.203%
+Final Accuracy From Averaging = 96.087%
+Final Accuracy From Weighted Average = 96.087%
+2
+For m = 2
+Final Accuracy From Majority Voting = 95.362%
+Final Accuracy From Averaging = 96.087%
+Final Accuracy From Weighted Average = 95.797%
+3
+For m = 3
+Final Accuracy From Majority Voting = 95.217%
+Final Accuracy From Averaging = 95.362%
+Final Accuracy From Weighted Average = 94.638%
+4
+For m = 4
+Final Accuracy From Majority Voting = 93.333%
+Final Accuracy From Averaging = 94.638%
+Final Accuracy From Weighted Average = 94.058%
+
+
+-->>> For mlps
+ViT is loaded!
+mlp_block_0_train_acc0.88_test_acc0.90.pth
+MLP 1 is loaded!
+mlp_block_1_train_acc0.94_test_acc0.97.pth
+MLP 2 is loaded!
+mlp_block_2_train_acc0.95_test_acc0.98.pth
+MLP 3 is loaded!
+mlp_block_3_train_acc0.96_test_acc0.97.pth
+MLP 4 is loaded!
+mlp_block_4_train_acc0.95_test_acc0.97.pth
+All MLPs are loaded!
+# of parameters of a module:
+Total Params:  625219970
+Trainable Params:  625219970
+
+For FGSM Attack samples:
+number of images is 690
+Classes with index are: {'Normal': 0, 'Tuberculosis': 1}
+1
+For m = 1
+Final Accuracy From Majority Voting = 89.420%
+Final Accuracy From Averaging = 91.884%
+Final Accuracy From Weighted Average = 92.464%
+2
+For m = 2
+Final Accuracy From Majority Voting = 93.623%
+Final Accuracy From Averaging = 94.203%
+Final Accuracy From Weighted Average = 93.043%
+3
+For m = 3
+Final Accuracy From Majority Voting = 93.768%
+Final Accuracy From Averaging = 94.638%
+Final Accuracy From Weighted Average = 94.348%
+4
+For m = 4
+Final Accuracy From Majority Voting = 94.493%
+Final Accuracy From Averaging = 94.638%
+Final Accuracy From Weighted Average = 94.203%
+
+For PGD Attack samples:
+number of images is 690
+Classes with index are: {'Normal': 0, 'Tuberculosis': 1}
+1
+For m = 1
+Final Accuracy From Majority Voting = 89.275%
+Final Accuracy From Averaging = 92.029%
+Final Accuracy From Weighted Average = 92.464%
+2
+For m = 2
+Final Accuracy From Majority Voting = 93.768%
+Final Accuracy From Averaging = 94.348%
+Final Accuracy From Weighted Average = 92.899%
+3
+For m = 3
+Final Accuracy From Majority Voting = 93.913%
+Final Accuracy From Averaging = 94.783%
+Final Accuracy From Weighted Average = 94.058%
+4
+For m = 4
+Final Accuracy From Majority Voting = 94.638%
+Final Accuracy From Averaging = 94.783%
+Final Accuracy From Weighted Average = 94.058%
+
+For BIM Attack samples:
+number of images is 690
+Classes with index are: {'Normal': 0, 'Tuberculosis': 1}
+1
+For m = 1
+Final Accuracy From Majority Voting = 91.449%
+Final Accuracy From Averaging = 94.493%
+Final Accuracy From Weighted Average = 94.783%
+2
+For m = 2
+Final Accuracy From Majority Voting = 95.507%
+Final Accuracy From Averaging = 95.942%
+Final Accuracy From Weighted Average = 94.058%
+3
+For m = 3
+Final Accuracy From Majority Voting = 95.652%
+Final Accuracy From Averaging = 96.087%
+Final Accuracy From Weighted Average = 95.217%
+4
+For m = 4
+Final Accuracy From Majority Voting = 95.507%
+Final Accuracy From Averaging = 96.377%
+Final Accuracy From Weighted Average = 95.652%
+
+For AUTOPGD Attack samples:
+number of images is 690
+Classes with index are: {'Normal': 0, 'Tuberculosis': 1}
+1
+For m = 1
+Final Accuracy From Majority Voting = 90.145%
+Final Accuracy From Averaging = 92.464%
+Final Accuracy From Weighted Average = 92.464%
+2
+For m = 2
+Final Accuracy From Majority Voting = 94.203%
+Final Accuracy From Averaging = 94.783%
+Final Accuracy From Weighted Average = 92.899%
+3
+For m = 3
+Final Accuracy From Majority Voting = 94.348%
+Final Accuracy From Averaging = 95.217%
+Final Accuracy From Weighted Average = 94.348%
+4
+For m = 4
+Final Accuracy From Majority Voting = 94.783%
+Final Accuracy From Averaging = 95.217%
+Final Accuracy From Weighted Average = 94.928%
+
+For CW Attack samples:
+number of images is 690
+Classes with index are: {'Normal': 0, 'Tuberculosis': 1}
+1
+For m = 1
+Final Accuracy From Majority Voting = 91.449%
+Final Accuracy From Averaging = 94.493%
+Final Accuracy From Weighted Average = 94.783%
+2
+For m = 2
+Final Accuracy From Majority Voting = 95.507%
+Final Accuracy From Averaging = 95.942%
+Final Accuracy From Weighted Average = 94.058%
+3
+For m = 3
+Final Accuracy From Majority Voting = 95.652%
+Final Accuracy From Averaging = 96.087%
+Final Accuracy From Weighted Average = 95.217%
+4
+For m = 4
+Final Accuracy From Majority Voting = 95.507%
+Final Accuracy From Averaging = 96.377%
+Final Accuracy From Weighted Average = 95.652%

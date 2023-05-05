@@ -1,0 +1,288 @@
+
+
+-->>For cnns
+ViT is loaded!
+cnn_block_0_train_acc0.91_test_acc0.95.pth
+MLP 1 is loaded!
+cnn_block_1_train_acc0.94_test_acc0.96.pth
+MLP 2 is loaded!
+cnn_block_2_train_acc0.94_test_acc0.97.pth
+MLP 3 is loaded!
+cnn_block_3_train_acc0.95_test_acc0.97.pth
+MLP 4 is loaded!
+cnn_block_4_train_acc0.95_test_acc0.97.pth
+MLP 5 is loaded!
+cnn_block_5_train_acc0.95_test_acc0.97.pth
+All MLPs are loaded!
+# of parameters of a module:
+Total Params:  1032770
+Trainable Params:  1032770
+Testing on Original Clean Test dataset
+['number of train images is 6360', 'number of valid images is 630', 'number of test images is 700']
+Classes with index are: {'Normal': 0, 'Tuberculosis': 1}
+['Normal', 'Tuberculosis']
+1
+For m = 1
+Final Accuracy From Majority Voting = 95.507%
+Final Accuracy From Averaging = 96.667%
+Final Accuracy From Weighted Average = 96.522%
+2
+For m = 2
+Final Accuracy From Majority Voting = 95.652%
+Final Accuracy From Averaging = 96.957%
+Final Accuracy From Weighted Average = 96.667%
+3
+For m = 3
+Final Accuracy From Majority Voting = 96.087%
+Final Accuracy From Averaging = 96.377%
+Final Accuracy From Weighted Average = 96.087%
+4
+For m = 4
+Final Accuracy From Majority Voting = 94.203%
+Final Accuracy From Averaging = 94.928%
+Final Accuracy From Weighted Average = 94.928%
+5
+For m = 5
+Final Accuracy From Majority Voting = 94.348%
+Final Accuracy From Averaging = 93.188%
+Final Accuracy From Weighted Average = 92.174%
+
+
+-->>For resnets_ft
+ViT is loaded!
+resnet_ft_block_0_train_acc0.91_test_acc0.96.pth
+MLP 1 is loaded!
+resnet_ft_block_1_train_acc0.94_test_acc0.98.pth
+MLP 2 is loaded!
+resnet_ft_block_2_train_acc0.93_test_acc0.97.pth
+MLP 3 is loaded!
+resnet_ft_block_3_train_acc0.95_test_acc0.98.pth
+MLP 4 is loaded!
+resnet_ft_block_4_train_acc0.95_test_acc0.98.pth
+MLP 5 is loaded!
+resnet_ft_block_5_train_acc0.95_test_acc0.97.pth
+All MLPs are loaded!
+# of parameters of a module:
+Total Params:  13586114
+Trainable Params:  13586114
+Testing on Original Clean Test dataset
+['number of train images is 6360', 'number of valid images is 630', 'number of test images is 700']
+Classes with index are: {'Normal': 0, 'Tuberculosis': 1}
+['Normal', 'Tuberculosis']
+1
+For m = 1
+Final Accuracy From Majority Voting = 96.087%
+Final Accuracy From Averaging = 96.812%
+Final Accuracy From Weighted Average = 96.667%
+2
+For m = 2
+Final Accuracy From Majority Voting = 96.377%
+Final Accuracy From Averaging = 96.957%
+Final Accuracy From Weighted Average = 96.667%
+3
+For m = 3
+Final Accuracy From Majority Voting = 96.232%
+Final Accuracy From Averaging = 95.652%
+Final Accuracy From Weighted Average = 95.072%
+4
+For m = 4
+Final Accuracy From Majority Voting = 91.449%
+Final Accuracy From Averaging = 93.043%
+Final Accuracy From Weighted Average = 92.754%
+5
+For m = 5
+Final Accuracy From Majority Voting = 91.449%
+Final Accuracy From Averaging = 89.420%
+Final Accuracy From Weighted Average = 88.261%
+
+
+-->>For resnets_tl
+ViT is loaded!
+resnet_tl_block_0_train_acc0.87_test_acc0.90.pth
+MLP 1 is loaded!
+resnet_tl_block_1_train_acc0.87_test_acc0.91.pth
+MLP 2 is loaded!
+resnet_tl_block_2_train_acc0.87_test_acc0.90.pth
+MLP 3 is loaded!
+resnet_tl_block_3_train_acc0.90_test_acc0.94.pth
+MLP 4 is loaded!
+resnet_tl_block_4_train_acc0.91_test_acc0.94.pth
+MLP 5 is loaded!
+resnet_tl_block_5_train_acc0.92_test_acc0.94.pth
+All MLPs are loaded!
+# of parameters of a module:
+Total Params:  13586114
+Trainable Params:  2409602
+Testing on Original Clean Test dataset
+['number of train images is 6360', 'number of valid images is 630', 'number of test images is 700']
+Classes with index are: {'Normal': 0, 'Tuberculosis': 1}
+['Normal', 'Tuberculosis']
+1
+For m = 1
+Final Accuracy From Majority Voting = 91.594%
+Final Accuracy From Averaging = 96.377%
+Final Accuracy From Weighted Average = 93.768%
+2
+For m = 2
+Final Accuracy From Majority Voting = 90.290%
+Final Accuracy From Averaging = 94.348%
+Final Accuracy From Weighted Average = 92.609%
+3
+For m = 3
+Final Accuracy From Majority Voting = 93.333%
+Final Accuracy From Averaging = 94.638%
+Final Accuracy From Weighted Average = 94.058%
+4
+For m = 4
+Final Accuracy From Majority Voting = 91.449%
+Final Accuracy From Averaging = 93.333%
+Final Accuracy From Weighted Average = 91.739%
+5
+For m = 5
+Final Accuracy From Majority Voting = 91.594%
+Final Accuracy From Averaging = 91.739%
+Final Accuracy From Weighted Average = 90.000%
+
+
+-->>For resnets_ft_cnn
+ViT is loaded!
+resnet_ft_cnn_block_0_train_acc0.93_test_acc0.96.pth
+MLP 1 is loaded!
+resnet_ft_cnn_block_1_train_acc0.94_test_acc0.98.pth
+MLP 2 is loaded!
+resnet_ft_cnn_block_2_train_acc0.94_test_acc0.98.pth
+MLP 3 is loaded!
+resnet_ft_cnn_block_3_train_acc0.95_test_acc0.98.pth
+MLP 4 is loaded!
+resnet_ft_cnn_block_4_train_acc0.96_test_acc0.97.pth
+MLP 5 is loaded!
+resnet_ft_cnn_block_5_train_acc0.95_test_acc0.97.pth
+All MLPs are loaded!
+# of parameters of a module:
+Total Params:  14267810
+Trainable Params:  14267810
+Testing on Original Clean Test dataset
+['number of train images is 6360', 'number of valid images is 630', 'number of test images is 700']
+Classes with index are: {'Normal': 0, 'Tuberculosis': 1}
+['Normal', 'Tuberculosis']
+1
+For m = 1
+Final Accuracy From Majority Voting = 95.942%
+Final Accuracy From Averaging = 96.957%
+Final Accuracy From Weighted Average = 97.101%
+2
+For m = 2
+Final Accuracy From Majority Voting = 95.942%
+Final Accuracy From Averaging = 96.377%
+Final Accuracy From Weighted Average = 95.072%
+3
+For m = 3
+Final Accuracy From Majority Voting = 96.522%
+Final Accuracy From Averaging = 94.493%
+Final Accuracy From Weighted Average = 94.348%
+4
+For m = 4
+Final Accuracy From Majority Voting = 88.986%
+Final Accuracy From Averaging = 93.043%
+Final Accuracy From Weighted Average = 92.174%
+5
+For m = 5
+Final Accuracy From Majority Voting = 89.130%
+Final Accuracy From Averaging = 91.014%
+Final Accuracy From Weighted Average = 90.725%
+
+
+-->>For resnets_tl_cnn
+ViT is loaded!
+resnet_tl_cnn_block_0_train_acc0.86_test_acc0.93.pth
+MLP 1 is loaded!
+resnet_tl_cnn_block_1_train_acc0.88_test_acc0.92.pth
+MLP 2 is loaded!
+resnet_tl_cnn_block_2_train_acc0.89_test_acc0.92.pth
+MLP 3 is loaded!
+resnet_tl_cnn_block_3_train_acc0.89_test_acc0.93.pth
+MLP 4 is loaded!
+resnet_tl_cnn_block_4_train_acc0.92_test_acc0.95.pth
+MLP 5 is loaded!
+resnet_tl_cnn_block_5_train_acc0.92_test_acc0.95.pth
+All MLPs are loaded!
+# of parameters of a module:
+Total Params:  14267810
+Trainable Params:  3091298
+Testing on Original Clean Test dataset
+['number of train images is 6360', 'number of valid images is 630', 'number of test images is 700']
+Classes with index are: {'Normal': 0, 'Tuberculosis': 1}
+['Normal', 'Tuberculosis']
+1
+For m = 1
+Final Accuracy From Majority Voting = 94.203%
+Final Accuracy From Averaging = 96.087%
+Final Accuracy From Weighted Average = 95.942%
+2
+For m = 2
+Final Accuracy From Majority Voting = 95.362%
+Final Accuracy From Averaging = 96.087%
+Final Accuracy From Weighted Average = 95.797%
+3
+For m = 3
+Final Accuracy From Majority Voting = 95.217%
+Final Accuracy From Averaging = 95.362%
+Final Accuracy From Weighted Average = 94.783%
+4
+For m = 4
+Final Accuracy From Majority Voting = 93.333%
+Final Accuracy From Averaging = 94.638%
+Final Accuracy From Weighted Average = 93.913%
+5
+For m = 5
+Final Accuracy From Majority Voting = 93.478%
+Final Accuracy From Averaging = 93.043%
+Final Accuracy From Weighted Average = 91.739%
+
+
+-->>For mlps
+ViT is loaded!
+mlp_block_0_train_acc0.88_test_acc0.90.pth
+MLP 1 is loaded!
+mlp_block_1_train_acc0.94_test_acc0.97.pth
+MLP 2 is loaded!
+mlp_block_2_train_acc0.95_test_acc0.98.pth
+MLP 3 is loaded!
+mlp_block_3_train_acc0.96_test_acc0.97.pth
+MLP 4 is loaded!
+mlp_block_4_train_acc0.95_test_acc0.97.pth
+MLP 5 is loaded!
+mlp_block_5_train_acc0.96_test_acc0.97.pth
+All MLPs are loaded!
+# of parameters of a module:
+Total Params:  625219970
+Trainable Params:  625219970
+Testing on Original Clean Test dataset
+['number of train images is 6360', 'number of valid images is 630', 'number of test images is 700']
+Classes with index are: {'Normal': 0, 'Tuberculosis': 1}
+['Normal', 'Tuberculosis']
+1
+For m = 1
+Final Accuracy From Majority Voting = 91.449%
+Final Accuracy From Averaging = 94.493%
+Final Accuracy From Weighted Average = 94.783%
+2
+For m = 2
+Final Accuracy From Majority Voting = 95.507%
+Final Accuracy From Averaging = 95.942%
+Final Accuracy From Weighted Average = 93.768%
+3
+For m = 3
+Final Accuracy From Majority Voting = 95.652%
+Final Accuracy From Averaging = 96.087%
+Final Accuracy From Weighted Average = 95.217%
+4
+For m = 4
+Final Accuracy From Majority Voting = 95.507%
+Final Accuracy From Averaging = 96.377%
+Final Accuracy From Weighted Average = 95.652%
+5
+For m = 5
+Final Accuracy From Majority Voting = 95.507%
+Final Accuracy From Averaging = 95.362%
+Final Accuracy From Weighted Average = 95.507%
