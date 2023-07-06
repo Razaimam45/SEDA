@@ -2,7 +2,7 @@
 
 <hr />
 
-![Method](Report/Method.png)
+![Method](Report/Method(5)(3).png)
 
 ## Abstract 
 With the recent adaptation of deep learning in medical imaging problems, elevated vulnerabilities have been explored in reent CNN
